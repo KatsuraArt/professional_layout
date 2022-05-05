@@ -157,3 +157,24 @@ body {
     letter-spacing: 0em;
     color: var(--pink-text);
 }
+
+.products {
+}
+.products__title {
+    margin: 96px 0 0 0;
+    justify-content: center;
+}
+.products__text {
+}
+.products__list {
+}
+.products__item {
+}
+.products__item-img {
+}
+.products__item-title {
+}
+.products__item-text {
+}
+.products__item-price {
+}
