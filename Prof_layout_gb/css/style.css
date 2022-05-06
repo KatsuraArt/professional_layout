@@ -158,23 +158,115 @@ body {
     color: var(--pink-text);
 }
 
-.products {
-}
+.products {}
+
 .products__title {
     margin: 96px 0 0 0;
-    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
 }
+
 .products__text {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #9F9F9F;
+    margin: 6px 0 48px 0;
 }
+
 .products__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
 .products__item {
+    width: 360px;
+    min-height: 582px;
+    background-color: #F8F8F8;
+    margin-bottom: 30px;
 }
-.products__item-img {
-}
+
+.products__item-img {}
+
 .products__item-title {
+    padding: 24px 28px 12px 18px;
+    font-size: 13px;
+    line-height: 16px;
 }
+
 .products__item-text {
+    padding: 12px 28px 18px 18px;
+    color: #5D5D5D;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
 }
+
 .products__item-price {
+    color: #F16D7F;
+    padding: 18px 0 20px 18px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.products__button-position {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 96px;
+}
+
+.products__button {
+    background-color: transparent;
+    border: 1px solid #FF6A6A;
+    padding: 14px 38px;
+}
+
+.products__button-link {
+    text-decoration: none;
+    color: #F26376;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.subscribe {
+    background-color: var(--black);
+    padding: 104px 0 104px;
+}
+
+.visually-hidden {}
+
+.subcribe__list {
+    display: flex;
+}
+
+.subscribe__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 360px;
+    min-height: 133px;
+}
+
+.subscribe__item-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.subscribe__item-title {
+    margin: 20px 0 16px 0;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FBFBFB;
+    text-align: center;
+}
+
+.subscribe__item-text {
+    justify-self: end;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    color: #FBFBFB;
+    text-align: center;
 }
