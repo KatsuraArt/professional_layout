@@ -230,18 +230,16 @@ body {
     line-height: 19px;
 }
 
-.subscribe {
+.advantages {
     background-color: var(--black);
     padding: 104px 0 104px;
 }
 
-.visually-hidden {}
-
-.subcribe__list {
+.advantages__list {
     display: flex;
 }
 
-.subscribe__item {
+.advantages__item {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -249,12 +247,12 @@ body {
     min-height: 133px;
 }
 
-.subscribe__item-img {
+.advantages__item-img {
     display: block;
     margin: 0 auto;
 }
 
-.subscribe__item-title {
+.advantages__item-title {
     margin: 20px 0 16px 0;
     font-size: 20px;
     line-height: 24px;
@@ -262,7 +260,7 @@ body {
     text-align: center;
 }
 
-.subscribe__item-text {
+.advantages__item-text {
     justify-self: end;
     font-size: 14px;
     font-weight: 300;
